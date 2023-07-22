@@ -351,6 +351,10 @@
   gap: 1rem;
 }
 
+.itemCard:hover {
+  cursor: pointer;
+}
+
 .itemCard-img {
   display: grid;
   place-items: center;
@@ -391,6 +395,38 @@
   transition: all 400ms cubic-bezier(0.215, 0.610, 0.355, 1);
 }
 
+
+
+/* About */
+.main-about {
+  width: 100%;
+  height: auto;
+}
+
+.main-about-container {
+  width: 100%;
+  height: auto;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.main-about-container .tab-1 {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding: 2rem 0;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  gap: 1rem;
+}
+
+.main-about-container .tab-1 p {
+  font-size: 1.3em;
+  font-weight: 500;
+  padding: 0rem 2rem;
+}
 
 /* mq */
 @media (min-width: 992px) {

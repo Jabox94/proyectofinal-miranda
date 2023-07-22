@@ -1,11 +1,11 @@
 // JSON
 import ProductList from '../../JSON/ProductList.json'
-const iterador = ProductList.productos
+const iterador = ProductList.productos.slice(0, 5)
 
 // Layouts
-import ItemCard from "./ItemCard/ItemCard"
+import ItemCard from '../../components/ItemContainer/ItemCard/ItemCard'
 
-export default function ItemContainer() {
+export default function HomeVariables() {
   return (
     <>
       <div className="itemcontainer-container">

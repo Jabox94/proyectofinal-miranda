@@ -5,6 +5,7 @@
       "title": "Leche",
       "brand": "Lactosa",
       "price": 200,
+      "description": "La vaca Lola La vaca Lola Tiene cabeza y tiene cola La vaca Lola La vaca Lola Tiene cabeza y tiene cola Y hace muuu",
       "thumbnail": "https://www.conaprole.uy/wp-content/uploads/2019/09/leche-fresca.png"
     },
     {
@@ -12,6 +13,7 @@
       "title": "Pan de molde",
       "brand": "Bimbo",
       "price": 100,
+      "description": "Bimbo's white sliced bread is a versatile and delicious option for making sandwiches, toasts, or simply enjoying it with your favorite toppings. Its soft and fluffy texture makes it the perfect ally for your snacks and meals",
       "thumbnail": "https://polvillo.es/wp-content/uploads/2022/10/pan-de-molde-blanco-1.png"
     },
     {
@@ -19,6 +21,7 @@
       "title": "Huevos",
       "brand": "Granja Feliz",
       "price": 300,
+      "description": "Fresh eggs from Granja Feliz are a natural source of proteins and other important nutrients for a balanced diet. Ideal for making omelets, scrambled eggs, and various culinary recipes that enhance their flavor and nutritional value",
       "thumbnail": "https://tiendapopular.uy/wp-content/uploads/2022/11/Maple-de-huevos.png"
     },
     {
@@ -26,6 +29,7 @@
       "title": "Arroz",
       "brand": "Tío Ben's",
       "price": 100,
+      "description": "Tío Ben's rice is a fundamental ingredient in the kitchen; its texture and taste make it perfect for accompanying all kinds of dishes, from stews to sushi. A reliable and high-quality option for your daily meals",
       "thumbnail": "https://www.verleal.com/wp-content/uploads/2021/01/ayudas-culinarias-arroz.png"
     },
     {
@@ -33,6 +37,7 @@
       "title": "Atún en lata",
       "brand": "Calvo",
       "price": 200,
+      "description": "Calvo's canned tuna in oil, with chunks of tuna, is a healthy and delicious option for your salads, pasta dishes, or snacks. Ready to eat and enhance your culinary creations",
       "thumbnail": "https://www.oprumin.com/images/virtuemart/product/resized/0114468338.At%C3%B9n%20en%20trozos%20al%20aceite_640x640.png"
     },
     {
@@ -40,6 +45,7 @@
       "title": "Pasta",
       "brand": "Barilla",
       "price": 100,
+      "description": "Enjoy authentic Italian pasta from the brand Barilla with their fettuccine. This pasta, made with the finest ingredients, provides a unique culinary experience, especially when combined with your favorite sauces",
       "thumbnail": "https://www.dececco.com/wp-content/uploads/2018/05/0SW4233-FETTUCCINE-3.png"
     },
     {
@@ -47,6 +53,7 @@
       "title": "Aceite de oliva",
       "brand": "Carbonell",
       "price": 400,
+      "description": "Carbonell olive oil, renowned for its quality and flavor, is perfect for enhancing your dishes with a Mediterranean touch. Ideal for dressing salads, sautéing vegetables, and giving a special touch to your recipes",
       "thumbnail": "https://www.supermaxi.com/wp-content/uploads/2021/07/8410660101115.png"
     },
     {
@@ -54,6 +61,7 @@
       "title": "Azúcar",
       "brand": "Azucarera",
       "price": 100,
+      "description": "Sugar from the brand Azucarera, an essential ingredient to sweeten your hot beverages, desserts, and homemade pastries. Its fine and granulated texture dissolves easily, ensuring a sweet and uniform taste in your preparations",
       "thumbnail": "https://sitio111154.p04.mvdsimple.uy/web/image/product.template/11/image"
     },
     {
@@ -61,6 +69,7 @@
       "title": "Café molido",
       "brand": "Nescafé",
       "price": 300,
+      "description": "Enjoy the flavor and aroma of Nescafé's ground coffee with a smooth roast. A perfect choice for those moments of relaxation and enjoyment. Prepare a cup of aromatic and delicious coffee with the quality that characterizes this renowned brand",
       "thumbnail": "https://www.nescafe.com/cam/sites/default/files/2020-07/TUESTE%20SUAVE%202000x2000.png"
     },
     {
@@ -68,6 +77,7 @@
       "title": "Refresco",
       "brand": "Coca-Cola",
       "price": 100,
+      "description": "Refresh yourself with the classic Coca-Cola Light in a 33cl can. A bubbly and light beverage, perfect for accompanying your meals or enjoying a moment of relaxation. Its unmistakable flavor will captivate you",
       "thumbnail": "https://www.jrzarra.com/437-large_default/coca-cola-light-de-33cl.jpg"
     },
     {
@@ -75,6 +85,7 @@
       "title": "Yogur natural",
       "brand": "Danone",
       "price": 300,
+      "description": "Danone's natural yogurt is a healthy and delicious option to incorporate into your daily diet. Its creamy texture and smooth taste make it an excellent snack or base for making smoothies and desserts",
       "thumbnail": "https://www.conaprole.uy/wp-content/uploads/2013/08/Co%CC%81d.-201-600x600.png"
     },
     {
@@ -82,6 +93,7 @@
       "title": "Tomate en lata",
       "brand": "Orlando",
       "price": 100,
+      "description": "Orlando's canned crushed tomatoes offer you the convenience of having fresh tomatoes ready to use in your recipes. Ideal for sauces, stews, and Mediterranean dishes",
       "thumbnail": "https://pontevedra.com.uy/imagenes/productos/tomate-triturado-4kg.png"
     },
     {
@@ -89,6 +101,7 @@
       "title": "Cerveza",
       "brand": "Heineken",
       "price": 200,
+      "description": "Enjoy the premium taste of Heineken beer in a pack of six 330ml bottles. A refreshing and high-quality option for sharing special moments or simply unwinding after a long day",
       "thumbnail": "https://dislicoresqa.vtexassets.com/arquivos/ids/282129/364025-CERVEZA_HEINEKEN_SIX_PACK_BOTELLA_330ML.png?v=637901739211030000"
     },
     {
@@ -96,6 +109,7 @@
       "title": "Jabón de baño",
       "brand": "Dove",
       "price": 100,
+      "description": "Dove bath soap provides a gentle and moisturizing cleanse for your skin. Enriched with moisturizing agents, this soap cares for and protects your skin, leaving it soft and smooth. Presentation: 100-gram bar",
       "thumbnail": "https://assets.unileversolutions.com/v1/1640933.png"
     },
     {
@@ -103,6 +117,7 @@
       "title": "Papel higiénico",
       "brand": "Scott",
       "price": 200,
+      "description": " Scott Elite Pro PLUS toilet paper offers softness and durability for an optimal cleaning experience. With its pack of 12 rolls, it ensures longer-lasting use for your home",
       "thumbnail": "https://merchant.pedidosya.com.uy/cdn/shop/products/IP6125-FIC-PH-Elite-Pro-PLUS-UH-50m-x12-IP6125-Fab-UY-para-UY_912x700.png?v=1628168068"
     },
     {
@@ -110,6 +125,7 @@
       "title": "Detergente",
       "brand": "Ariel",
       "price": 300,
+      "description": "Ariel powdered detergent is designed to effectively remove tough stains while keeping your clothes clean and fresh. Its concentrated formula offers superior performance with every wash",
       "thumbnail": "https://supermercadolaestacion.com/31432-large_default/detergente-ariel-x4kg-polvo.jpg"
     },
     {
@@ -117,6 +133,7 @@
       "title": "Champú",
       "brand": "Pantene",
       "price": 200,
+      "description": "Pantene's anti-dandruff shampoo cares for and protects your hair while helping to control dandruff and maintain a healthy scalp. Its formula nourishes and moisturizes, leaving your hair soft and with a pleasant aroma",
       "thumbnail": "https://prd-cdn-emea1-joltx.pgsitecore.com/-/media/growing-families-version1/gf-es/brand/pantene/480x480_pantene_shampoo_anti-dandruff_270ml_ibr_power-image_18-05-2020.ashx?rev=e9b70adff39c45d1a58c5e84a0ff9936"
     },
     {
@@ -124,6 +141,7 @@
       "title": "Galletas",
       "brand": "María",
       "price": 100,
+      "description": " Individual María cookies are a classic choice for snacks, perfect for enjoying on their own or with hot beverages. Their sweet flavor and crunchy texture make them irresistible for both adults and children",
       "thumbnail": "https://www.gamesacookies.com/sites/gamesa.com/files/2021-11/marias-individual-v3.png"
     },
     {
@@ -131,6 +149,7 @@
       "title": "Manzanas",
       "brand": "Fuji",
       "price": 200,
+      "description": " Enjoy the freshness and sweetness of Fuji apples. This apple variety is known for its juicy flavor and balanced taste, making it a healthy choice for your snacks and desserts",
       "thumbnail": "https://ecommerce-images.bonarea.com/v1/img/es/1000x1000/13_2061_1.png"
     },
     {
@@ -138,6 +157,7 @@
       "title": "Pasta de dientes",
       "brand": "Colgate",
       "price": 100,
+      "description": "Colgate toothpaste provides a deep clean and protection against cavities. With its fluoride formula, it strengthens the enamel and leaves your mouth fresh and protected",
       "thumbnail": "https://cdn.shopify.com/s/files/1/0566/4391/1854/products/7501035911369.png?v=1627869849"
     }
   ]

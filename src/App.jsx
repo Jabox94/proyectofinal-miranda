@@ -1,18 +1,21 @@
-// Layouts
-import Hd from './components/Header/Header'
-import NavBar from './components/NavBar/NavBar'
-import MainBanner from './components/Banners/MainBanner'
-import ItemContainer from './components/ItemContainer/ItemContainer'
+import { Route, Routes } from 'react-router-dom'
+//Pages
+import Home from './pages/Home'
+import Store from './pages/store'
+import About from './pages/about'
 // Styles
 import './App.css'
+
 
 function App() {
   return (
     <>
-      <Hd />
-      <NavBar />
-      <MainBanner />
-      <ItemContainer />
+
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/store' element={<Store />} />
+        <Route path='/about' element={<About />} />
+      </Routes>
     </>
   )
 }
