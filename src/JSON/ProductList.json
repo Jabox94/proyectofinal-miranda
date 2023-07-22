@@ -1,0 +1,144 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "title": "Leche",
+      "brand": "Lactosa",
+      "price": 200,
+      "thumbnail": "https://www.conaprole.uy/wp-content/uploads/2019/09/leche-fresca.png"
+    },
+    {
+      "id": 2,
+      "title": "Pan de molde",
+      "brand": "Bimbo",
+      "price": 100,
+      "thumbnail": "https://polvillo.es/wp-content/uploads/2022/10/pan-de-molde-blanco-1.png"
+    },
+    {
+      "id": 3,
+      "title": "Huevos",
+      "brand": "Granja Feliz",
+      "price": 300,
+      "thumbnail": "https://tiendapopular.uy/wp-content/uploads/2022/11/Maple-de-huevos.png"
+    },
+    {
+      "id": 4,
+      "title": "Arroz",
+      "brand": "Tío Ben's",
+      "price": 100,
+      "thumbnail": "https://www.verleal.com/wp-content/uploads/2021/01/ayudas-culinarias-arroz.png"
+    },
+    {
+      "id": 5,
+      "title": "Atún en lata",
+      "brand": "Calvo",
+      "price": 200,
+      "thumbnail": "https://www.oprumin.com/images/virtuemart/product/resized/0114468338.At%C3%B9n%20en%20trozos%20al%20aceite_640x640.png"
+    },
+    {
+      "id": 6,
+      "title": "Pasta",
+      "brand": "Barilla",
+      "price": 100,
+      "thumbnail": "https://www.dececco.com/wp-content/uploads/2018/05/0SW4233-FETTUCCINE-3.png"
+    },
+    {
+      "id": 7,
+      "title": "Aceite de oliva",
+      "brand": "Carbonell",
+      "price": 400,
+      "thumbnail": "https://www.supermaxi.com/wp-content/uploads/2021/07/8410660101115.png"
+    },
+    {
+      "id": 8,
+      "title": "Azúcar",
+      "brand": "Azucarera",
+      "price": 100,
+      "thumbnail": "https://sitio111154.p04.mvdsimple.uy/web/image/product.template/11/image"
+    },
+    {
+      "id": 9,
+      "title": "Café molido",
+      "brand": "Nescafé",
+      "price": 300,
+      "thumbnail": "https://www.nescafe.com/cam/sites/default/files/2020-07/TUESTE%20SUAVE%202000x2000.png"
+    },
+    {
+      "id": 10,
+      "title": "Refresco",
+      "brand": "Coca-Cola",
+      "price": 100,
+      "thumbnail": "https://www.jrzarra.com/437-large_default/coca-cola-light-de-33cl.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Yogur natural",
+      "brand": "Danone",
+      "price": 300,
+      "thumbnail": "https://www.conaprole.uy/wp-content/uploads/2013/08/Co%CC%81d.-201-600x600.png"
+    },
+    {
+      "id": 12,
+      "title": "Tomate en lata",
+      "brand": "Orlando",
+      "price": 100,
+      "thumbnail": "https://pontevedra.com.uy/imagenes/productos/tomate-triturado-4kg.png"
+    },
+    {
+      "id": 13,
+      "title": "Cerveza",
+      "brand": "Heineken",
+      "price": 200,
+      "thumbnail": "https://dislicoresqa.vtexassets.com/arquivos/ids/282129/364025-CERVEZA_HEINEKEN_SIX_PACK_BOTELLA_330ML.png?v=637901739211030000"
+    },
+    {
+      "id": 14,
+      "title": "Jabón de baño",
+      "brand": "Dove",
+      "price": 100,
+      "thumbnail": "https://assets.unileversolutions.com/v1/1640933.png"
+    },
+    {
+      "id": 15,
+      "title": "Papel higiénico",
+      "brand": "Scott",
+      "price": 200,
+      "thumbnail": "https://merchant.pedidosya.com.uy/cdn/shop/products/IP6125-FIC-PH-Elite-Pro-PLUS-UH-50m-x12-IP6125-Fab-UY-para-UY_912x700.png?v=1628168068"
+    },
+    {
+      "id": 16,
+      "title": "Detergente",
+      "brand": "Ariel",
+      "price": 300,
+      "thumbnail": "https://supermercadolaestacion.com/31432-large_default/detergente-ariel-x4kg-polvo.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Champú",
+      "brand": "Pantene",
+      "price": 200,
+      "thumbnail": "https://prd-cdn-emea1-joltx.pgsitecore.com/-/media/growing-families-version1/gf-es/brand/pantene/480x480_pantene_shampoo_anti-dandruff_270ml_ibr_power-image_18-05-2020.ashx?rev=e9b70adff39c45d1a58c5e84a0ff9936"
+    },
+    {
+      "id": 18,
+      "title": "Galletas",
+      "brand": "María",
+      "price": 100,
+      "thumbnail": "https://www.gamesacookies.com/sites/gamesa.com/files/2021-11/marias-individual-v3.png"
+    },
+    {
+      "id": 19,
+      "title": "Manzanas",
+      "brand": "Fuji",
+      "price": 200,
+      "thumbnail": "https://ecommerce-images.bonarea.com/v1/img/es/1000x1000/13_2061_1.png"
+    },
+    {
+      "id": 20,
+      "title": "Pasta de dientes",
+      "brand": "Colgate",
+      "price": 100,
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0566/4391/1854/products/7501035911369.png?v=1627869849"
+    }
+  ]
+}
