@@ -11,7 +11,7 @@ export default function About() {
           <h1 className="about-title">About us</h1>
           <div className="tab-1">
             <p>
-              We are an ordinary family that one day began to dream of having our own supermarket. Today that dream is possible, and not only that, but we are still hungry to continue conquering every corner of your neighborhood. Because we are the divine ones, because we are gasoline, real gasoline.
+              Somos una familia normal y corriente que un día empezó a soñar con tener su propio supermercado. Hoy ese sueño es posible, y no sólo eso, sino que seguimos con hambre de seguir conquistando cada rincón de tu barrio. Porque somos los divinos, porque somos gasolina, gasolina de verdad.
             </p>
             <img src="https://www.abc.com.py/resizer/b50R9mnK2BPp3vBHz6z1Ka8GQCE=/fit-in/770x495/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/abccolor/NUGIIYJIYJCBBD7OXP5RQBV3AA.jpg" alt="Family picture" />
           </div>

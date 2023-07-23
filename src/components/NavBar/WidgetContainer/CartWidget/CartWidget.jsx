@@ -17,7 +17,7 @@ export default function CartWidget() {
 
       <div className={clicked == true ? 'cart-list-container--active' : 'cart-list-container'}>
         <h3 className="cart-title">
-          Shopping cart
+          Carrito de compra
 
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 cart-close-icon"
             onClick={toggle}>
@@ -28,10 +28,10 @@ export default function CartWidget() {
         <table className="cart-list" id="cart-list">
           <thead>
             <tr className="cart-header">
-              <th><span className="hidden">Image</span></th>
-              <th>Prod. Name</th>
-              <th>Price</th>
-              <th><span className="hidden">Delete</span></th>
+              <th><span className="hidden">Imagen</span></th>
+              <th>Nombre de Prod.</th>
+              <th>Precio</th>
+              <th><span className="hidden">Eliminar</span></th>
             </tr>
           </thead>
           <tbody>
@@ -40,7 +40,7 @@ export default function CartWidget() {
                 <img src="#" alt="Product thumbnail" />
               </td>
               <td className="cart-list-name">
-                Pelota de basquetball
+                Pelota de futbol
               </td>
               <td className="cart-list-price">
                 $<span className="price-holder">400</span>

@@ -2,13 +2,13 @@ export default function NavMenu() {
   return (
     <ul className="navmenu-list">
       <li className="navmenu-list-item">
-        <a href="/" className="navmenu-list-link">Home</a>
+        <a href="/" className="navmenu-list-link">Inicio</a>
       </li>
       <li className="navmenu-list-item">
-        <a href="/store" className="navmenu-list-link">Store</a>
+        <a href="/productos" className="navmenu-list-link">Productos</a>
       </li>
       <li className="navmenu-list-item">
-        <a href="/about" className="navmenu-list-link">About</a>
+        <a href="/sobrenosotros" className="navmenu-list-link">Nosotros</a>
       </li>
     </ul>
   )
