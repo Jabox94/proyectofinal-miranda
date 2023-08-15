@@ -1,0 +1,24 @@
+.itemcontainer-container {
+  width: 100%;
+  min-height: 400px;
+  padding: 2rem 1rem;
+  background-color: var(--bg-clr);
+}
+
+.itemcontainer-title {
+  text-align: center;
+  padding: 0 2rem;
+  color: var(--third-clr);
+}
+
+.items-slider {
+  /* Size */
+  width: 100%;
+  min-height: 300px;
+  padding: 1rem;
+  /* Display */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  place-items: center;
+}

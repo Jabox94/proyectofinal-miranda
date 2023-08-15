@@ -1,3 +1,5 @@
+import './Banner.css'
+
 export default function MainBanner() {
   return (
     <section className="w-full banner-container">

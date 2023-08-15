@@ -1,14 +1,15 @@
+import { Link } from "react-router-dom"
 export default function NavMenu() {
   return (
     <ul className="navmenu-list">
       <li className="navmenu-list-item">
-        <a href="/" className="navmenu-list-link">Inicio</a>
+        <Link to="/" className="navmenu-list-link">Inicio</Link>
       </li>
       <li className="navmenu-list-item">
-        <a href="/productos" className="navmenu-list-link">Productos</a>
+        <Link to="/productos" className="navmenu-list-link">Productos</Link>
       </li>
       <li className="navmenu-list-item">
-        <a href="/sobrenosotros" className="navmenu-list-link">Nosotros</a>
+        <Link to="/sobrenosotros" className="navmenu-list-link">Nosotros</Link>
       </li>
     </ul>
   )

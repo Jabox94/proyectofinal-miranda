@@ -1,15 +1,12 @@
-import Hd from "../components/Header/Header"
-import NavBar from "../components/NavBar/NavBar"
 import MainBanner from "../components/Banners/MainBanner"
-import HomeVariables from "./Home-Props/HomeVariables"
+import ItemContainer from "../components/ItemContainer/ItemContainer"
 
 export default function Home() {
+  const isHome = true
   return (
     <>
-      <Hd />
-      <NavBar />
       <MainBanner />
-      <HomeVariables />
+      <ItemContainer isHome={isHome} />
     </>
   )
 }

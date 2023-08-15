@@ -1,33 +1,66 @@
-import { Link } from 'react-router-dom'
+import { useState, useEffect } from 'react'
+
 // JSON
-import ProductList from '../../JSON/ProductList.json'
-const iterador = ProductList.productos
+import getData from '../../JSON/getData'
 
-// Layouts
+// Components
 import ItemCard from "./ItemCard/ItemCard"
+import Spinner from '../Spinner/Spinner'
+// Syles
+import './ItemContainer.css'
 
-export default function ItemContainer() {
+export default function ItemContainer(props) {
+  const { isHome } = props
+  const [products, setProducts] = useState([])
+  const [isSpinner, setIsSpinner] = useState(false)
+
+  const requestProduct = async () => {
+    const response = await getData()
+    const resSliced = response.slice(1, 5)
+
+    //Si es la pagina principal, se corta el array a solo 4 productos
+    isHome ? setProducts(resSliced) : setProducts(response)
+  }
+
+  useEffect(() => {
+    setIsSpinner(true)
+
+    setTimeout(() => {
+      setIsSpinner(false)
+      requestProduct()
+    }, 1000)
+
+  }, [])
+
   return (
     <>
-      <div className="itemcontainer-container">
-        {ProductList.productos.length > 0 &&
-          <div className="items-slider">
-            {iterador.map((item) => (
-              <Link key={item.id} to={`/productos/${item.id}`} className='itemCard'>
-                {
-                  < ItemCard
-                    key={item.id}
-                    thumbnail={item.thumbnail}
-                    title={item.title}
-                    price={item.price}
-                    brand={item.brand}
-                  />
-                }
-              </Link>
-            ))}
-          </div>
-        }
-      </div >
+      {isSpinner ?
+        <Spinner />
+        :
+        <div className="itemcontainer-container">
+          {products.length > 0 &&
+            <div className="items-slider">
+              {products.map(({ id, img, title, price, brand, category }) => (
+                <div
+                  key={id}
+                  className='itemCard'
+                >
+                  {
+                    < ItemCard
+                      id={id}
+                      img={img}
+                      title={title}
+                      price={price}
+                      brand={brand}
+                      category={category}
+                    />
+                  }
+                </div>
+              ))}
+            </div>
+          }
+        </div >
+      }
     </>
   )
 }

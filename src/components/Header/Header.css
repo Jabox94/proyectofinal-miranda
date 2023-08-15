@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--forth-clr);
+
+  margin-bottom: 1rem;
+}
+
+.header-p {
+  padding: 1rem 2rem;
+  color: white;
+  /* Text display */
+  text-align: center;
+  font-size: 1em;
+  font-weight: 500;
+}

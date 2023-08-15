@@ -1,8 +1,10 @@
+import './Header.css'
+
 export default function Hd() {
   return (
     <header className="header w-full">
       <p className="header-p">
-        Checkout price does not includes import duties, VAT and other taxes.
+        El precio de salida no incluye derechos de importación, IVA ni otros impuestos.
       </p>
     </header>
   )

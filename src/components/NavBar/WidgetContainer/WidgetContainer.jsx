@@ -1,5 +1,6 @@
 import CartWidget from "./CartWidget/CartWidget"
 import MenuWidget from "./MenuWidget/MenuWidget"
+import './Widgets.css'
 
 let responsive = window.innerWidth
 

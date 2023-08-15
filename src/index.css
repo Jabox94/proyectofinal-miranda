@@ -1,5 +1,5 @@
 :root {
-  --bg-clr: #F5EFE7;
+  --bg-clr: #ebe3d9;
   --primary-clr: #D8C4B6;
   --secundary-clr: #4F709C;
   --third-clr: #213555;
@@ -68,4 +68,8 @@ img {
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+
+button:hover {
+  cursor: pointer;
 }

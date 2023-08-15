@@ -1,7 +1,8 @@
 import Logo from "./Logo/Logo"
-import SearchBox from "./SearchBox/SearchBox"
 import WidgetContainer from "./WidgetContainer/WidgetContainer"
 import NavMenu from "./NavMenu/NavMenu"
+
+import './NavBar.css'
 
 // Variables
 let responsive = window.innerWidth
@@ -13,7 +14,6 @@ export default function NavBar() {
       <nav className="navbar w-full">
         <div className="navbar-container-mobile w-full">
           <Logo />
-          <SearchBox />
           <WidgetContainer />
         </div>
       </nav>
@@ -21,7 +21,6 @@ export default function NavBar() {
       <nav className="navbar w-full">
         <div className="navbar-container-desktop w-full">
           <Logo />
-          <SearchBox />
           <NavMenu />
           <WidgetContainer />
         </div>

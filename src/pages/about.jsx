@@ -1,11 +1,7 @@
-import Hd from "../components/Header/Header"
-import NavBar from "../components/NavBar/NavBar"
 
 export default function About() {
   return (
     <>
-      <Hd />
-      <NavBar />
       <main className="main-about">
         <div className="main-about-container">
           <h1 className="about-title">About us</h1>

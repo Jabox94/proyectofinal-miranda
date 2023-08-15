@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Link } from "react-router-dom"
 export default function CartWidget() {
 
   const [clicked, setClicked] = useState(false)
@@ -29,7 +30,7 @@ export default function CartWidget() {
           <thead>
             <tr className="cart-header">
               <th><span className="hidden">Imagen</span></th>
-              <th>Nombre de Prod.</th>
+              <th>Titulo Prod.</th>
               <th>Precio</th>
               <th><span className="hidden">Eliminar</span></th>
             </tr>
@@ -55,6 +56,9 @@ export default function CartWidget() {
             </tr>
           </tbody>
         </table>
+
+        <Link to={'/checkout'} className="button warning checkout-btn">A pagar</Link>
+
       </div>
     </div >
   )
