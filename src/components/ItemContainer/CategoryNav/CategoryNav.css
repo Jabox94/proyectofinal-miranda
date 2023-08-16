@@ -1,6 +1,6 @@
 .category-nav {
   width: 80%;
-  max-width: 1200px;
+  max-width: 950px;
   height: 2.5em;
 
   margin: 0 auto;
@@ -10,13 +10,14 @@
   justify-content: space-between;
   align-items: center;
 
+  gap: 2em;
 }
 
 .category-nav-link {
-  width: fit-content;
+  width: 20%;
   height: auto;
   border-radius: 10px;
-  background-color: var(--secundary-clr);
+  background-color: var(--third-clr);
   color: white;
 }
 

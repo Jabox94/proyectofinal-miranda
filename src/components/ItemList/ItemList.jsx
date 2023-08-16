@@ -1,6 +1,6 @@
 // Components
-import ItemCard from '../ItemCard/ItemCard'
-import CategoryNav from '../CategoryNav/CategoryNav'
+import ItemCard from './ItemCard/ItemCard'
+import CategoryNav from '../ItemContainer/CategoryNav/CategoryNav'
 
 //CSS
 import './ItemList.css'

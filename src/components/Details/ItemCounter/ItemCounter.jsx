@@ -1,6 +1,6 @@
 import { useState } from 'react'
 // Components
-import ButtonComponent from '../Buttons/ButtonComponent'
+import ButtonComponent from '../../Buttons/ButtonComponent'
 // css
 import './ItemCounter.css'
 

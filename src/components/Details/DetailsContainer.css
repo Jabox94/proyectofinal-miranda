@@ -1,28 +1,15 @@
-/* Products details */
-.details-card {
-  width: 80%;
-  height: 600px;
-  /* padding: 2rem 0; */
-
-  margin: 2rem auto;
-  border-radius: 20px;
-
-  background-color: var(--forth-clr);
-}
-
-/* Container */
+/* Details Container */
 .item-details-container {
   width: 90%;
-  min-height: 600px;
+  height: 700px;
   margin: 2rem auto;
   padding: 5rem;
-
 
   display: grid;
   grid-template-columns: 1fr;
 
-  background-color: var(--third-clr);
-  border-radius: 10px;
+  background-color: var(--primary-clr);
+  border-radius: 30px;
 }
 
 .details-img-container {
@@ -51,7 +38,7 @@
 .info-title,
 .info-brand,
 .info-description {
-  color: white;
+  color: var(--third-clr);
 }
 
 .info-title {

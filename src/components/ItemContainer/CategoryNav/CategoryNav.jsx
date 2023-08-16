@@ -7,28 +7,28 @@ export default function CategoryNav() {
     <>
       <nav className='category-nav'>
         <NavLink
-          to='/categoria/comida'
+          to='/categoria/Comida'
           className={'button category-nav-link'}
         >
           Comida
         </NavLink>
 
         <NavLink
-          to='/categoria/bebidas'
+          to='/categoria/Bebidas'
           className={'button category-nav-link'}
         >
           Bebidas
         </NavLink>
 
         <NavLink
-          to='/categoria/higiene'
+          to='/categoria/Higiene'
           className={'button category-nav-link'}
         >
           Higiene
         </NavLink>
 
         <NavLink
-          to='/categoria/otros'
+          to='/categoria/Otros'
           className={'button category-nav-link'}
         >
           Otros

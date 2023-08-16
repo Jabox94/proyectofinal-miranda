@@ -1,35 +1,36 @@
 import { useState, useEffect } from 'react'
-
-// JSON
-import getData from '../../JSON/getData'
-
+// Firebase
+import { getData, getCategoryData } from '../../service/getData'
 // Components
 import Spinner from '../Spinner/Spinner'
 // Syles
 import './ItemContainer.css'
-import ItemList from './ItemList/ItemList'
+import ItemList from '../ItemList/ItemList'
+import { useParams } from 'react-router-dom'
 
 export default function ItemContainer(props) {
+
   const { isHome } = props
   const [products, setProducts] = useState([])
-  const [isLoading, setIsLoading] = useState(false)
-
-  const requestProduct = async () => {
-    const response = await getData()
-    const resSliced = response.slice(1, 5)
-
-    //Si es la pagina principal, se corta el array a solo 4 productos
-    isHome ? setProducts(resSliced) : setProducts(response)
-  }
+  const [isLoading, setIsLoading] = useState(true)
+  const { reference } = useParams();
 
   useEffect(() => {
-    setIsLoading(true)
-    setTimeout(() => {
-      setIsLoading(false)
-      requestProduct()
-    }, 500)
 
-  }, [])
+    async function requestProduct() {
+      setIsLoading(true)
+      let response = reference
+        ? await getCategoryData(reference)
+        : await getData()
+      const resSliced = response.slice(1, 5)
+
+      //Si es la pagina principal, se corta el array a solo 4 productos
+      isHome ? setProducts(resSliced) : setProducts(response)
+      setIsLoading(false)
+    }
+
+    requestProduct()
+  }, [reference, isHome])
 
   return (
     <>
