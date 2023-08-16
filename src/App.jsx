@@ -4,7 +4,7 @@ import Hd from './components/Header/Header';
 import NavBar from './components/NavBar/NavBar';
 //Pages
 import Home from './pages/Home';
-import Store from './pages/store';
+import Store from './pages/Store';
 import About from './pages/About';
 import Checkout from './pages/Checkout';
 //Components
