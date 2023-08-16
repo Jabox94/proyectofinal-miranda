@@ -1,0 +1,26 @@
+.category-nav {
+  width: 80%;
+  max-width: 1200px;
+  height: 2.5em;
+
+  margin: 0 auto;
+  padding: 3rem 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.category-nav-link {
+  width: fit-content;
+  height: auto;
+  border-radius: 10px;
+  background-color: var(--secundary-clr);
+  color: white;
+}
+
+.category-nav-link:hover {
+  transition: all 400ms linear;
+  filter: invert(1);
+}

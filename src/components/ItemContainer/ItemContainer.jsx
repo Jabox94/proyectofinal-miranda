@@ -4,15 +4,15 @@ import { useState, useEffect } from 'react'
 import getData from '../../JSON/getData'
 
 // Components
-import ItemCard from "./ItemCard/ItemCard"
 import Spinner from '../Spinner/Spinner'
 // Syles
 import './ItemContainer.css'
+import ItemList from './ItemList/ItemList'
 
 export default function ItemContainer(props) {
   const { isHome } = props
   const [products, setProducts] = useState([])
-  const [isSpinner, setIsSpinner] = useState(false)
+  const [isLoading, setIsLoading] = useState(false)
 
   const requestProduct = async () => {
     const response = await getData()
@@ -23,43 +23,20 @@ export default function ItemContainer(props) {
   }
 
   useEffect(() => {
-    setIsSpinner(true)
-
+    setIsLoading(true)
     setTimeout(() => {
-      setIsSpinner(false)
+      setIsLoading(false)
       requestProduct()
-    }, 1000)
+    }, 500)
 
   }, [])
 
   return (
     <>
-      {isSpinner ?
+      {isLoading ?
         <Spinner />
         :
-        <div className="itemcontainer-container">
-          {products.length > 0 &&
-            <div className="items-slider">
-              {products.map(({ id, img, title, price, brand, category }) => (
-                <div
-                  key={id}
-                  className='itemCard'
-                >
-                  {
-                    < ItemCard
-                      id={id}
-                      img={img}
-                      title={title}
-                      price={price}
-                      brand={brand}
-                      category={category}
-                    />
-                  }
-                </div>
-              ))}
-            </div>
-          }
-        </div >
+        < ItemList products={products} isHome={isHome} />
       }
     </>
   )

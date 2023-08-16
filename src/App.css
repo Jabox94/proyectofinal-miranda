@@ -19,14 +19,6 @@
   font-weight: 300;
 }
 
-.button {
-  padding: 1rem 2rem;
-  border-radius: 10px;
-  text-align: center;
-  border: none;
-  outline: none;
-}
-
 .w-full {
   width: 100%;
   height: auto;

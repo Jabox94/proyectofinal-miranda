@@ -1,12 +1,12 @@
-import { useState } from 'react'
+// Components
 import './DetailsContainer.css'
+import ButtonComponent from '../Buttons/ButtonComponent'
+import ItemCounter from '../ItemCounter/ItemCounter'
 
 // eslint-disable-next-line react/prop-types
 export default function DetailsContainer({ info }) {
   // eslint-disable-next-line react/prop-types
   const { img, title, brand, price, id, description, category } = info
-
-  const [quantity, setQuantity] = useState('1')
 
   return (
     <div className='item-details-container'>
@@ -28,45 +28,11 @@ export default function DetailsContainer({ info }) {
           {description}
         </p>
 
-        <div className="details-inputs">
-          <button
-            onClick={
-              () => {
-                let state = quantity
-                let newState = ++state
-                newState >= 6 ? --newState : newState
-                setQuantity(newState)
-              }
-            }
-            id='increaseInput'
-            className='button input-btn'
-          >+</button>
-          <input
-            type="number"
-            name="QuantityCounter"
-            className='button quantity-btn'
-            readOnly
-            min={0}
-            max={5}
-            placeholder={quantity}
-          />
-          <button
-            onClick={
-              () => {
-                let state = quantity
-                let newState = --state
-                newState <= 0 ? ++newState : newState
-                setQuantity(newState)
-              }
-            }
-            id='decreaseInput'
-            className='button input-btn'
-          >-
-          </button>
-        </div>
-        <button className='button to-cart-btn'>
-          Agregar al carrito
-        </button>
+        <ItemCounter />
+        <ButtonComponent
+          styles='button to-cart-btn'
+          content={'Agregar al carrito'}
+        />
       </div >
     </div>
   )

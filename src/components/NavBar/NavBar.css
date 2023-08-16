@@ -9,13 +9,12 @@
   place-items: center;
 
   position: relative;
-  /* background-color: var(--primary-clr); */
 }
 
 .navbar-container-desktop {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 3rem 0;
 
   /* Display */
   display: grid;
